@@ -1,0 +1,28 @@
+#semaforo{
+    position: absolute;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.lamp{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: aliceblue;
+    margin-top: 5px;
+    border-radius: 70px;
+}
+#red{
+    background-color: rgb(43, 25, 25);
+    
+}
+#yellow{
+    background-color: rgb(48, 48, 30);
+}
+#green{
+    background-color: rgb(23, 36, 23);
+}
+
